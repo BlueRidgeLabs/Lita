@@ -32,7 +32,7 @@ Lita.configure do |config|
   if ENV['REDIS_URL'].nil?
     config.redis[:host] = 'redis'
   else
-    config.redis[:host] = ENV['REDIS_URL']
+    config.redis[:url] = ENV['REDIS_URL']
   end
 
   config.http.port = ENV['PORT'] unless ENV['PORT'].nil?
