@@ -20,7 +20,7 @@ Lita.configure do |config|
   config.robot.adapter = :slack
   config.adapters.slack.token = ENV['SLACK_TOKEN']
   config.adapters.slack.link_names = true
-  config.adapters.slack.parse = "full"
+  config.adapters.slack.parse = 'full'
   config.adapters.slack.unfurl_links = false
   config.adapters.slack.unfurl_media = false
   
@@ -35,7 +35,7 @@ Lita.configure do |config|
     config.redis[:host] = ENV['REDIS_URL']
   end
 
-  config.http.port = ENV["PORT"] unless ENV["PORT"].nil?
+  config.http.port = ENV['PORT'] unless ENV['PORT'].nil?
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
