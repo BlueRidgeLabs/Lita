@@ -18,4 +18,4 @@ gem "lita-aww"
 gem "lita-broadcast"
 gem "lita-doge"
 
-gem 'lita-slack'
+gem 'lita-slack', github: "PagerDuty/lita-slack"

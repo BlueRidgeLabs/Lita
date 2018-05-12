@@ -1,8 +1,19 @@
+GIT
+  remote: git://github.com/PagerDuty/lita-slack.git
+  revision: ba84a23268f78fe14456936d2fe86f066c82e910
+  specs:
+    lita-slack (1.8.0)
+      eventmachine
+      faraday
+      faye-websocket (>= 0.8.0)
+      lita (>= 4.7.1)
+      multi_json
+
 GEM
   remote: https://rubygems.org/
   specs:
     concurrent-ruby (1.0.5)
-    eventmachine (1.2.6)
+    eventmachine (1.2.7)
     faraday (0.15.1)
       multipart-post (>= 1.2, < 3)
     faye-websocket (0.10.7)
@@ -32,12 +43,6 @@ GEM
       lita (>= 4.6)
     lita-doge (0.1.0)
       lita (>= 4.7)
-    lita-slack (1.8.0)
-      eventmachine
-      faraday
-      faye-websocket (>= 0.8.0)
-      lita (>= 4.7.1)
-      multi_json
     multi_json (1.13.1)
     multipart-post (2.0.0)
     puma (3.11.4)
@@ -61,7 +66,7 @@ DEPENDENCIES
   lita-aww
   lita-broadcast
   lita-doge
-  lita-slack
+  lita-slack!
 
 RUBY VERSION
    ruby 2.5.1p57
