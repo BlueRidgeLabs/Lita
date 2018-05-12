@@ -14,4 +14,8 @@ gem "lita"
 # gem 'lita-google-images'
 # gem "lita-karma"
 
+gem "lita-aww"
+gem "lita-broadcast"
+gem "lita-doge"
+
 gem 'lita-slack'
