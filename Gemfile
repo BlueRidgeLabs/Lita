@@ -18,4 +18,6 @@ gem "lita-aww"
 gem "lita-broadcast"
 gem "lita-doge"
 
+gem 'lita-benevolentgaze', github: "BlueRidgeLabs/lita-benevolentgaze"
+
 gem 'lita-slack', github: "PagerDuty/lita-slack"
