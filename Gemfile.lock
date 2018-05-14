@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/BlueRidgeLabs/lita-benevolentgaze.git
-  revision: 6e7832fdd9c17bfd0fcabaf66a2f5a3e316ebd49
+  revision: 6396e203c815ac92adc3db88c29ac3c4c1bdff6d
   specs:
-    lita-benevolentgaze (0.0.1)
+    lita-benevolentgaze (0.0.2)
       httparty
       json
 
